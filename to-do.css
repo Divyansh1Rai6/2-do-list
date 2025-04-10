@@ -13,7 +13,6 @@ body {
     max-width: 400px;
     margin: 137px auto;
     padding: 20px;
-    background: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -26,7 +25,7 @@ body {
     border: 1px solid #d3d3d3;
 }
 .to-do-app h2 {
-    padding: 10x;
+    padding: 10px;
 }
 .to-do-app input {
     width: 250px;
@@ -38,7 +37,7 @@ body {
     width: fit-content;
     padding: 5px;
     border: none;
-    background: #28a745;
+    background-color: #28a745;
     color: white;
     cursor: pointer;
     border-radius: 5px;
