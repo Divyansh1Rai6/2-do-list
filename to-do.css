@@ -18,23 +18,23 @@ body {
     display: flex;
     flex-direction: column;
 }
-.to-do-list {
+.to-do-app {
     width: 100%;
     padding: 20px;
     border-radius: 5px;
     background-color: whitesmoke;
     border: 1px solid #d3d3d3;
 }
-.to-do-list h2 {
+.to-do-app h2 {
     padding: 10x;
 }
-.to-do-list input {
+.to-do-app input {
     width: 250px;
     padding: 5px;
     border: 2px solid gold;
     border-radius: 5px;
 }
-.to-do-list button {
+.to-do-app button {
     width: fit-content;
     padding: 5px;
     border: none;
@@ -42,10 +42,6 @@ body {
     color: white;
     cursor: pointer;
     border-radius: 5px;
-}
-ul {
-    list-style: none;
-    padding: 0;
 }
 li {
     font-size: 1.5rem;
