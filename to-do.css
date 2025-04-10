@@ -19,6 +19,7 @@ body {
 }
 .to-do-app {
     width: 100%;
+    min-height:100vh;
     padding: 20px;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -35,12 +36,13 @@ body {
 }
 .to-do-app button {
     width: fit-content;
-    padding: 5px;
+    padding: 10px;
     border: none;
     background-color: #28a745;
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    gap: 10px;
 }
 li {
     font-size: 1.5rem;
