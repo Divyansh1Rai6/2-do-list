@@ -48,15 +48,19 @@ ul {
     padding: 0;
 }
 li {
-    background-color: aquamarine;
-    padding: 10px;
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 5px;
+    font-size: 1.5rem;
 }
-.completed {
-    text-decoration: line-through;
-    color: gray;
+.to-do-list {
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 0 20px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+to-do-list li {
+    font-size: small;
+    bakcground-color: whitesmoke;
+    padding: 20px;
 }
