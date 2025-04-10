@@ -1,22 +1,20 @@
-document.addEventListener("DOMContentLoaded", function () {
-    let taskInput = document.getElementById("taskInput");
-    let taskList = document.getElementById("taskList");
-    let addButton = document.getElementById("addButton");
-
-    addButton.addEventListener("click", function () {
-        let taskText = taskInput.value.trim();
-        if (taskText === "") return;
-        let li = document.createElement("li");
-        li.innerHTML = `${taskText} <button class="remove-btn">X</button>`;
-        
-        li.addEventListener("click", function () {
-            this.classList.toggle("completed");
-        });
-        li.querySelector(".remove-btn").addEventListener("click", function (event) {
-            event.stopPropagation();
-            li.remove();
-        });
-        taskList.appendChild(li);
-        taskInput.value = "";
-    });
-});
+const ul = document.querySelector('ul');
+const input = document.getElementById('item');
+let itemsArray = localStorage.getItem('items') ?  JSON.parse(localStorage.getItem('items')): [];
+itemsArray.forEach(addTask);
+function addTask(text){
+    const li = document.createElement('li')
+    li.textContent = text;
+    ul.appendChild(li);
+}
+function add() {
+    itemsArray.push(input.value);
+    localStorage.setItem('items', JSON.stringify(itemsArray));
+    addTask(input.value);
+    input.value = '';
+}
+function del() {
+    localStorage.clear();
+    ul.innerHTML = '';
+    itemsArray = [];
+}
