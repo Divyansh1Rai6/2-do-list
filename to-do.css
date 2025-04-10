@@ -55,9 +55,8 @@ li {
     gap: 15px;
     list-style: none;
 }
-to-do-list li {
+.to-do-list li {
     font-size: small;
     bakcground-color: whitesmoke;
     padding: 20px;
-    display: flex;
 }
