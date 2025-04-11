@@ -11,7 +11,7 @@ function addItem() {
     const task = {
         id: Date.now(),
         text: text,
-        completed: false;
+        completed: false
     };
     todos.push(task);
     saveToLocalStorage();
