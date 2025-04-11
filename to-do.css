@@ -46,8 +46,8 @@ li {
     flex: 1;
     margin: 0 10px;
     word-break: break-word;
-    font-size: larger;
-    color: darkslategray;
+    font-size: 1.5rem;
+    color: purple;
 }
 .delete-btn {
     background-color: blueviolet;
