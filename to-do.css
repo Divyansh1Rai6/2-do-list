@@ -25,7 +25,6 @@ input[type="text"], button {
 button {
     margin-right: 10px;
     background-color: mediumspringgreen;
-    font-size: 1.5rem;
     color: darkslategray;
 }
 ul {
