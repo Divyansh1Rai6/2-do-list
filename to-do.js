@@ -39,7 +39,7 @@ function renderItem(task) {
     li.appendChild(checkbox);
     li.appendChild(textSpan);
     li.appendChild(delBtn);
-    li.appendChild(li);
+    list.appendChild(li);
 }
 function ToggleComplete(id, span, checkbox) {
     const task = todos.find(t => t.id === id);
