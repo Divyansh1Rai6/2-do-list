@@ -9,14 +9,23 @@ body {
     padding: 20px;
     max-width: 600px;
 }
+h2 {
+    text-align: center;
+    color: snow;
+}
 input[type="text"], button {
     padding: 10px;
     margin: 5px 0;
     width: 100%;
     box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
 }
 button {
     margin-right: 10px;
+    font-size: 1rem;
+    color: darkslategray;
 }
 ul {
     list-style: none;
@@ -36,14 +45,17 @@ li {
     flex: 1;
     margin: 0 10px;
     word-break: break-word;
+    font-size: larger;
+    color: darkslateblue;
 }
 .delete-btn {
-    background-color: red;
+    background-color: blueviolet;
     color: white;
     border: none;
-    padding: 5px 10px;
     cursor: pointer;
     border-radius: 5px;
+    width: auto;
+    height: auto;
 }
 .completed {
     text-decoration: line-through;
