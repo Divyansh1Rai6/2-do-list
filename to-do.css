@@ -60,6 +60,5 @@ li {
 }
 .completed {
     text-decoration: line-through;
-    color: purple;
-    font-size: 1.5rem;
+    color: darkslategray;
 }
